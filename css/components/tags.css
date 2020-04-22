@@ -1,5 +1,5 @@
 .button-tags {
-    margin-left: 120px;
+    margin-left: 2.125em;
     background-color: #fff;
 }
 
@@ -10,9 +10,9 @@
     color: inherit;
     background: none;
     cursor: pointer;
-    padding: 8px 22px; /*resizing buttons*/
+    padding: 0.5em 1.375em; /*resizing buttons*/
     display: inline-block;
-    margin-right: 6px;
+    margin: 0.375em 0.375em;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
