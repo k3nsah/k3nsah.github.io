@@ -19,6 +19,8 @@ body {
 }
 
 .loader {
+    width: 2.5em;
+    height: 2.5em;
     position: absolute;
     top: 48%;
     left: 48%;

@@ -86,6 +86,8 @@
         <button class="btn os">Mac OS</button>
         <button class="btn language">Java</button>
         <button class="btn software">Adobe XD</button>
+        <button class="btn os">Windows 10</button>
+        <button class="btn software">Gimp</button>
     </div>
 </div>
 
@@ -106,10 +108,9 @@ function myFunction() {
 }
 </script>
 
-<script>
+<script> //tea cup pre-loader shown while rest of elements load properly
     $(document).ready(function() {
-//Preloader
-        preloaderFadeOutTime = 500;
+        preloaderFadeOutTime = 600;
         function hidePreloader() {
             var preloader = $('.loader-wrapper');
             preloader.fadeOut(preloaderFadeOutTime);
