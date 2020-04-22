@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Kelci Mensah</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <!-- elements -->
+    <link rel="stylesheet" href="css/crypto.css">
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/tags.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+<body>
+
+<!-- navigation -->
+<div id="nav"></div>
+
+<img class="navleaf" src="images/navleaf.png">
+
+<!-- mobile spacing temporary fix -->
+<div style="margin: 2em" class="w3-hide-medium w3-hide-large"></div>
+
+<!-- crypto-header -->
+<header class="w3-container w3-center" style="margin-top: 4em; padding:128px 16px">
+    <div class="crypto">
+        <div class="letters">
+            <span class="letter">K</span>
+            <span class="letter">e</span>
+            <span class="letter">l</span>
+            <span class="letter">c</span>
+            <span class="letter">i</span>
+            <span class="letter"> </span>
+            <span class="letter">M</span>
+            <span class="letter">e</span>
+            <span class="letter">n</span>
+            <span class="letter">s</span>
+            <span class="letter">a</span>
+            <span class="letter">h</span>
+        </div>
+        <p style="margin-top: 0px;">computer science major.</p>
+    </div>
+</header>
+
+<img class="garland w3-hide-small" src="images/garland.png">
+
+<!-- mobile spacing temporary fix -->
+<div style="margin: 16em" class="w3-hide-medium w3-hide-large"></div>
+
+<!-- posts -->
+<div class="posts 3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="centered-h"><h1 class="posts-header">POSTS</h1></div>
+        <div style="margin-top: 5em; text-align: center;" class="centered-b"><p class="sign">Sorry, there's nothing here. Come back later.</p></div>
+    </div>
+
+    <ul class="circles w3-hide-small">
+        <li></li> <li></li> <li></li> <li></li> <li></li>
+        <li></li> <li></li> <li></li> <li></li> <li></li>
+    </ul>
+</div>
+
+<!-- skills -->
+<div class="skills w3-row-padding w3-white w3-padding-64 w3-container">
+    <h1 style="color: #48756C; font-weight: 600">SKILLS</h1>
+
+    <p style="opacity:100; color: #000"><img class="keys" src="images/lavendar.png">software&emsp;&emsp;&emsp;<img class="keys" src="images/teal.png">language&emsp;&emsp;&emsp;<img class="keys" src="images/orange.png">OS</p>
+
+
+    <div class="button-tags w3-hide-small w3-hide-medium">
+        <button class="btn software">Figma</button>
+        <button class="btn language">HTML</button>
+        <button class="btn language">CSS</button>
+        <button class="btn os">Mac OS</button>
+        <button class="btn language">Java</button>
+        <button class="btn software">Adobe XD</button>
+    </div>
+</div>
+
+<!-- footer -->
+<div id="foot"></div>
+
+</body>
+</html>
+
+<script>    //toggle nav on mobile screens when clicking on the '≡' menu button
+function myFunction() {
+    var x = document.getElementById("mobile-nav");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+<script>
+    $("#nav").load('navigation.html');
+</script>
+
+<script>
+    $("#foot").load('footer.html');
+</script>
