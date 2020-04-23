@@ -15,8 +15,12 @@
 
 footer {
     background: #92B0AA;
+    z-index: 2;
 }
 
+body {
+    z-index: 2;
+}
 footer p {
     display: inline-block;
     color: #355851;
