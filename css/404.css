@@ -185,6 +185,7 @@ button:hover {
     width: 37.5em;
     height: 49.030625em;
     position: absolute;
-    top: 0;
+    top: -8%;
     left: 80%;
+    transform: rotate(-20deg);
 }
