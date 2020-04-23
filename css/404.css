@@ -181,11 +181,20 @@ button:hover {
     }
 }
 
-.plants02 {
+.plants {
     width: 37.5em;
     height: 49.030625em;
     position: absolute;
     top: -8%;
     left: 80%;
     transform: rotate(-20deg);
+}
+
+.plants_small{
+    width: 400px;
+    height: 523px;
+    position: absolute;
+    top: 23%;
+    left: 72%;
+    transform: rotate(-16deg);
 }
