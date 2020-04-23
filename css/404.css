@@ -209,12 +209,3 @@ button:hover {
     left: 80%;
     transform: rotate(-20deg);
 }
-
-.plants_small{
-    width: 400px;
-    height: 523px;
-    position: absolute;
-    top: 23%;
-    left: 72%;
-    transform: rotate(-16deg);
-}
