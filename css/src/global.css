@@ -2,6 +2,10 @@
     font-family: Verdana,sans-serif;
 }
 
+.subheading {
+    color: #92B0AA;
+}
+
 .no-select {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -9,3 +13,7 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
 }
+
+.hover-green01:hover{
+    color:#fff!important;
+    background-color:#92B0AA!important}

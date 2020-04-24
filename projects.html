@@ -5,6 +5,7 @@
     <title>Kelci Mensah</title>
 
     <link rel="stylesheet" href="css/src/w3.css">
+    <link rel="stylesheet" href="css/src/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
@@ -33,11 +34,11 @@
         <h3 class="w3-padding-64"><b>SKIP TO . . . </b></h3>
     </div>
     <div class="w3-bar-block">
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-klmgreen1">↶ return</a>
-        <a href="#java" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-klmgreen1">java</a>
-        <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-klmgreen1">graphic design</a>
-        <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-klmgreen1">minecraft</a>
-        <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-klmgreen1">web development</a>
+        <a href="#top" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">↶ return to top</a>
+        <a href="#java" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">java</a>
+        <a href="#ui-ux" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">UI/UX • graphic design</a>
+        <a href="#minecraft" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">minecraft</a>
+        <a href="#webdev" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">web development</a>
     </div>
 </nav>
 
@@ -47,38 +48,13 @@
     <!-- header -->
     <div class="w3-container" style="margin-top:80px" id="java">
         <h1 class="w3-jumbo"><b>Projects</b></h1>
-        <h1 class="w3-xxxlarge w3-text-red"><b>Java.</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
+        <p style="font-size: 1.2em">Here is a page of all my published projects and finished ideas. You can find their original posts on social media under the username '@k3nsah'.</p>
     </div>
 
-    <!-- Photo grid (modal) -->
-    <div class="w3-row-padding">
-        <div class="w3-half">
-            <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-            <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-            <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-        </div>
-
-        <div class="w3-half">
-            <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-            <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-            <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-        </div>
-    </div>
-
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-        <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
-            <p id="caption"></p>
-        </div>
-    </div>
-
-    <!-- Services -->
-    <div class="w3-container" id="services" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
+    <!-- java -->
+    <div class="w3-container" id="java" style="margin-top:75px">
+        <h1 class="w3-xxxlarge subheading"><b>Java.</b></h1>
+        <hr class="w3-round hr-theme">
         <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
         <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
@@ -86,10 +62,21 @@
         </p>
     </div>
 
-    <!-- Designers -->
-    <div class="w3-container" id="designers" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Designers.</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
+    <!-- graphic design • ui/ux -->
+    <div class="w3-container" id="ui-ux" style="margin-top:75px">
+        <h1 class="w3-xxxlarge subheading"><b>UI/UX & Graphic Design.</b></h1>
+        <hr class="w3-round hr-theme">
+        <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+        <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+
+    <!-- minecraft -->
+    <div class="w3-container" id="minecraft" style="margin-top:75px">
+        <h1 class="w3-xxxlarge subheading"><b>Minecraft.</b></h1>
+        <hr class="w3-round hr-theme">
         <p>The best team in the world.</p>
         <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
@@ -132,10 +119,10 @@
         </div>
     </div>
 
-    <!-- Packages / Pricing Tables -->
+    <!-- web development -->
     <div class="w3-container" id="packages" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
+        <h1 class="w3-xxxlarge subheading"><b>Web Development.</b></h1>
+        <hr class="w3-round hr-theme">
         <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
     </div>
 
@@ -176,36 +163,13 @@
             </ul>
         </div>
     </div>
-
-    <!-- Contact -->
-    <div class="w3-container" id="contact" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
-        <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-        <form action="/action_page.php" target="_blank">
-            <div class="w3-section">
-                <label>Name</label>
-                <input class="w3-input w3-border" type="text" name="Name" required>
-            </div>
-            <div class="w3-section">
-                <label>Email</label>
-                <input class="w3-input w3-border" type="text" name="Email" required>
-            </div>
-            <div class="w3-section">
-                <label>Message</label>
-                <input class="w3-input w3-border" type="text" name="Message" required>
-            </div>
-            <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
-        </form>
-    </div>
-
-    <!-- End page content -->
 </div>
 
-<!-- footer -->
+</body>
+
+    <!-- footer -->
 <div class="foot-bar" id="foot"></div>
 
-</body>
 </html>
 
 <script>    //toggle nav on mobile screens when clicking on the '≡' menu button
