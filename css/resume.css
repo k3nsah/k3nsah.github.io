@@ -1,8 +1,30 @@
 .interactive {
     margin-top: 16px;
-    display: inline-block;
+    margin-left:auto;
+    margin-right:auto
 }
 
 .green01 {
     color: #44A08D;
+}
+
+.green01-bc {
+    background-color: #44A08D;
+}
+
+.topic {
+    color: #5C5C5C;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.indent {
+    margin-left: 50px;
+}
+
+.pull-top {
+    margin-top: -18px;
+}
+
+.pull-top-date {
+    margin-top: -12px;
 }

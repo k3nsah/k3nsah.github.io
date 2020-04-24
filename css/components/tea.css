@@ -1,5 +1,5 @@
 svg.tea {
-    --secondary: #33406f;
+    --secondary: #48756C;   /* change stroke color */
 }
 svg.tea #teabag {
     transform-origin: top center;

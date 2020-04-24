@@ -12,7 +12,7 @@ html {
 
 .nav-bar {
     position: relative;
-    z-index: 5;
+    z-index: 100;
 }
 
 .hr-theme {
