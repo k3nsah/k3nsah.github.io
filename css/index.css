@@ -4,14 +4,6 @@ body {
     pointer-events: auto;
 }
 
-.notouch {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
-}
-
 .loader-wrapper {
     position: fixed;
     top: 0;
