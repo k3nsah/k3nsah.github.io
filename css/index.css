@@ -1,6 +1,10 @@
 body {
     font-family: 'Sarabun', sans-serif;
     overflow-x: hidden;
+    pointer-events: auto;
+}
+
+.notouch {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Old versions of Firefox */

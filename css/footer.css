@@ -13,16 +13,22 @@
     opacity: 40%;
 }
 
-footer {
+#insta {
+    cursor: pointer;
+}
+
+.footer {
     background: #92B0AA;
-    z-index: 2;
+    z-index: 4;
+    pointer-events: auto;
 }
 
 body {
-    z-index: 2;
+    z-index: 4;
 }
+
 footer p {
     display: inline-block;
     color: #355851;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
