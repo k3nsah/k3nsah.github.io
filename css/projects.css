@@ -72,4 +72,5 @@ html {
 .thumbnail {
     text-align: center;
     position: center;
+    display: block;
 }
