@@ -71,6 +71,6 @@ html {
 
     .thumbnail {
         text-align: center;
-        width: 18.125em;
-        height: 9.375em;
+        max-width: 100%;
+        height: auto;
     }
