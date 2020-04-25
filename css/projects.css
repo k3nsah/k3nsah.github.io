@@ -69,10 +69,6 @@ html {
         opacity: 0.3
     }
 
-.thumbnail {
-    text-align: center;
-}
-
-.th-case {
-    width: 100%;
-}
+    .thumbnail {
+        text-align: center;
+    }
