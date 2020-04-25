@@ -28,3 +28,7 @@
 .pull-top-date {
     margin-top: -12px;
 }
+
+.rounder {
+    border-radius: 7px;
+}
