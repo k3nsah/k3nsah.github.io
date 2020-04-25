@@ -10,6 +10,11 @@ html {
     z-index: 5;
 }
 
+.hover-green01:hover{
+    color: #fff;
+    background-color: #44A08D;
+}
+
 .nav-bar {
     position: relative;
     z-index: 100;
@@ -17,7 +22,7 @@ html {
 
 .hr-theme {
     width: 50px;
-    border: 5px solid #92B0AA;
+    border: 5px solid #44A08D;
 }
 
 * {

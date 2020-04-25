@@ -3,7 +3,7 @@
 }
 
 .subheading {
-    color: #92B0AA;
+    color: #44A08D;
 }
 
 .no-select {
@@ -13,10 +13,6 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
 }
-
-.hover-green01:hover{
-    color:#fff!important;
-    background-color:#92B0AA!important}
 
 /* page pre-loader*/
 .loader-wrapper {
