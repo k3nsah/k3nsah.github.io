@@ -50,13 +50,13 @@
         <p style="font-size: 1.2em">Here is a page of all my published projects and finished ideas. You can find their original posts on social media under the username '@k3nsah'.</p>
     </div>
 
-    <!-- java -->
-    <div class="w3-container" id="java" style="margin-top:75px">
-        <h1 class="w3-xxxlarge subheading"><b>Java.</b></h1>
+    <!-- programming -->
+    <div class="w3-container" id="programmingproj" style="margin-top:75px">
+        <h1 class="w3-xxxlarge subheading"><b>Programming.</b></h1>
         <hr class="w3-round hr-theme">
 
         <!-- java projects -->
-        <div id="javaproj"></div>
+        <div id="programmingproj"></div>
     </div>
 
     <!-- graphic design • ui/ux -->
@@ -76,16 +76,6 @@
 
         <!-- minecraft-projects -->
         <div id="minecraftproj"></div>
-    </div>
-
-
-    <!-- web development -->
-    <div class="w3-container" id="webdev" style="margin-top:75px; margin-bottom: 50px">
-        <h1 class="w3-xxxlarge subheading"><b>Web Development.</b></h1>
-        <hr class="w3-round hr-theme">
-
-        <!-- web_development-projects -->
-        <div id="webdevproj"></div>
     </div>
 
 </div>
@@ -110,10 +100,9 @@ $(document).ready(function() {
 
 <script>    //html page shorteners
     $("#nav").load('navigation.html');
-        $("#javaproj").load('projects/java.html');
+        $("#programmingproj").load('projects/programming.html');
         $("#uiuxproj").load('projects/uiux.html');
         $("#minecraftproj").load('projects/minecraft.html');
-        $("#webdevproj").load('projects/webdev.html');
     $("#foot").load('footer.html');
 
 </script>
@@ -125,14 +114,6 @@ $(document).ready(function() {
     } function w3_close() {
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
-    }
-
-    // Modal Image Gallery
-    function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
     }
 </script>
 
