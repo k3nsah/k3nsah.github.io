@@ -1,0 +1,50 @@
+/* 3-column rows */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+/* removes extra left and right margins --> due to padding */
+.row {margin: 10px -5px;}
+
+/* clear floats after columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* creating a responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.07);
+    padding: 16px;
+    text-align: left;
+    border-radius: 10px;
+    background: #FFF;
+    border: 1px solid #EEE;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    opacity: 1;
+}
+
+.card:hover {
+    opacity: 0.3
+}
+
+.thumbnail {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

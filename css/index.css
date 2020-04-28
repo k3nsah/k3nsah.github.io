@@ -33,6 +33,8 @@ body {
 
 .centered-h {
     margin: auto;
+    margin-top: -3em;
+    margin-bottom: 3em;
     width: 50%;
 }
 
@@ -72,7 +74,7 @@ body {
 }
 
 .skills {
-    margin-left: 2.75em;
+    margin-left: 2em;
 }
 
 .keys {
@@ -80,4 +82,9 @@ body {
     height: 1em;
     opacity: 1;
     margin: 0px 0.3em;
+}
+
+.posts p {
+    color: #000;
+    font-size: 14px;
 }
