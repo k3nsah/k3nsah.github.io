@@ -39,7 +39,7 @@
         <div class="w3-bar-block" style="margin-top: 100px;position:fixed">
             <a href="#top" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">↶ return to top</a>
             <a href="#programming" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🕹️ programming</a>
-            <a href="#ui-ux" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🎨 design</a>
+            <a href="#design" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🖍️ design</a>
             <a href="#minecraft" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🌱 minecraft</a>
         </div>
     </nav>
@@ -59,17 +59,17 @@
             <hr class="w3-round hr-theme">
 
             <!-- programming projects -->
-            <div id="programmingproj"></div>
+            <div id="programmingID"></div>
         </div>
 
-        <!-- graphic design • ui/ux -->
-        <div class="w3-container" id="ui-ux" style="margin-top:75px">
-            <h1 class="w3-xxxlarge subheading"><b>UI/UX & Graphic Design.</b></h1>
+        <!-- design -->
+        <div class="w3-container" id="design" style="margin-top:75px">
+            <h1 class="w3-xxxlarge subheading"><b>Design.</b></h1>
             <hr class="w3-round hr-theme">
             <p>Currently, my design project(s) are hosted on <a href="https://www.behance.net/k3nsah">Behance</a> and sometimes <a href="https://www.reddit.com/u/k3nsah">Reddit</a>.</p>
 
             <!-- uiux-projects -->
-            <div id="uiuxproj"></div>
+            <div id="designID"></div>
         </div>
 
         <!-- minecraft -->
@@ -80,7 +80,7 @@
             <p>I play on both Java and Bedrock Edition. You can find my creations posted on <a href="https://www.reddit.com/u/k3nsah">Reddit</a>.</p>
 
             <!-- minecraft-projects -->
-            <div id="minecraftproj"></div>
+            <div id="minecraftID"></div>
         </div>
 
     </div>
@@ -103,9 +103,9 @@ $(document).ready(function() {
 
 <script>    //html page shorteners
     $("#nav").load('navigation.html');
-        $("#programmingproj").load('projects/programming.html');
-        $("#uiuxproj").load('projects/uiux.html');
-        $("#minecraftproj").load('projects/minecraft.html');
+        $("#programmingID").load('projects/programming.html');
+        $("#designID").load('projects/design.html');
+        $("#minecraftID").load('projects/minecraft.html');
     $("#foot").load('footer.html');
 
 </script>

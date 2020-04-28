@@ -44,7 +44,7 @@ body {
     /* top | right | bottom | left */
     margin: -3em auto 1em auto;
     width: 80%;
-    padding: 0.5em 0px;
+    padding: 0em 0px;
     font-weight: 600;
 }
 
@@ -112,7 +112,20 @@ tr:hover {
 }
 
 .view-all {
-    background: #eee;
-    padding: 6px;
+    background: #F0F0F0;
+    padding: 7px;
     border-radius: 3px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: -10%;
+}
+
+.view-all:hover {
+    background: #E1E1E1;
 }
