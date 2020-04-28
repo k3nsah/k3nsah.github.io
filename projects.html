@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>Kelci Mensah</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/src/w3.css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
@@ -28,16 +36,12 @@
 
     <div class="content-wrapper">
     <!-- sidebar filter menu -->
-    <nav class="w3-sidebar w3-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-        <div class="w3-container">
-            <h3 class="w3-padding-64"><b>SKIP TO . . . </b></h3>
-        </div>
-        <div class="w3-bar-block">
+    <nav class="w3-sidebar w3-white w3-hide-small w3-hide-medium w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+        <div class="w3-bar-block" style="margin-top: 100px;position:fixed">
             <a href="#top" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">↶ return to top</a>
-            <a href="#programming" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">programming</a>
-            <a href="#ui-ux" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">ui/ux & graphic design</a>
-            <a href="#minecraft" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">minecraft</a>
+            <a href="#programming" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🕹️ programming</a>
+            <a href="#ui-ux" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🎨 ui/ux & graphic design</a>
+            <a href="#minecraft" onclick="w3_close()" class="w3-bar-item w3-button hover-green01">🌱 minecraft</a>
         </div>
     </nav>
 
@@ -89,7 +93,7 @@
 
 <script> //tea cup pre-loader shown while rest of elements load properly
 $(document).ready(function() {
-    preloaderFadeOutTime = 800;
+    preloaderFadeOutTime = 1000;
     function hidePreloader() {
         var preloader = $('.loader-wrapper');
         preloader.fadeOut(preloaderFadeOutTime);
@@ -105,25 +109,4 @@ $(document).ready(function() {
         $("#minecraftproj").load('projects/minecraft.html');
     $("#foot").load('footer.html');
 
-</script>
-
-<script> //toggle sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    } function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
-</script>
-
-<script>    //toggle nav on mobile screens when clicking on the '≡' menu button
-function myFunction() {
-    var x = document.getElementById("mobile-nav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
 </script>
