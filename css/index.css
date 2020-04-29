@@ -24,9 +24,11 @@ body {
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
-    } 50% {
+    }
+    50% {
         background-position: 100% 50%;
-    } 100% {
+    }
+    100% {
         background-position: 0% 50%;
     }
 }
@@ -91,7 +93,7 @@ table {
 }
 
 tr {
-    border-bottom: 1px solid #BCCECA;  /* #B2C4C0 == #92B0AA w/ opacity --> 62% */
+    border-bottom: 1px solid #BCCECA; /* #B2C4C0 == #92B0AA w/ opacity --> 62% */
     text-align: left;
     padding: 1em 0.2em;
 
@@ -108,7 +110,7 @@ td {
 }
 
 tr:hover {
-    background: rgba(146, 176, 170, 0.62);  /* #92B0AA w/ opacity --> 62% */
+    background: rgba(146, 176, 170, 0.62); /* #92B0AA w/ opacity --> 62% */
 }
 
 .view-all {
@@ -131,6 +133,21 @@ tr:hover {
 }
 
 .ico {
-    width:35px;
+    width: 35px;
     height: 35px;
+}
+
+.newID {
+    outline: none;
+    padding: 4px 10px;
+    border: 1px dashed #99845B;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: rgba(255, 220, 152, 0.72);
+    color: #99845B;
+}
+
+.newID:active {
+    border-style: none;
+    border: 1px dashed #99845B;;
 }
