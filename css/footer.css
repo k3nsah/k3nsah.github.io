@@ -19,9 +19,9 @@ body {
     opacity: 40%;
 }
 
-.footer {
+.footerCSS {
     background: #92B0AA;
-    z-index: 4;
+    z-index: 5;
     pointer-events: auto;
 }
 

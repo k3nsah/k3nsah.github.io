@@ -8,14 +8,6 @@ html {
     margin-right: auto;
 }
 
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-
-.foot-bar {
-    position: relative;
-    z-index: 5;
-}
-
 .hover-green01:hover{
     color: #fff;
     background-color: #44A08D;
