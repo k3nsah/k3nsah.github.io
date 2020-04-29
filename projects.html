@@ -120,11 +120,21 @@ $(document).ready(function () {
 });
 </script>
 
-<script>    //html page shorteners
+<script>    //load external HTML
 $("#nav").load('navigation.html');
 $("#programmingID").load('projects/programming.html');
 $("#designID").load('projects/design.html');
 $("#minecraftID").load('projects/minecraft.html');
 $("#foot").load('footer.html');
+</script>
 
+<script>    //toggle NAVIGATION for @mobile screens
+function myFunction() {
+    var x = document.getElementById("mobile-nav");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
 </script>

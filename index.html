@@ -104,13 +104,12 @@
 </body>
 
 <footer>
-    <!-- footer -->
     <div id="foot"></div>
 </footer>
 
 </html>
 
-<script> //tea cup pre-loader shown while rest of elements load properly
+<script>    //tea cup pre-loader shown while rest of elements load properly
 $(document).ready(function() {
     preloaderFadeOutTime = 1000;
     function hidePreloader() {
@@ -121,7 +120,7 @@ $(document).ready(function() {
 });
 </script>
 
-<script>    //toggle nav on mobile screens when clicking on the '≡' menu button
+<script>    //toggle NAVIGATION for @mobile screens
 function myFunction() {
     var x = document.getElementById("mobile-nav");
     if (x.className.indexOf("w3-show") == -1) {
@@ -132,7 +131,7 @@ function myFunction() {
 }
 </script>
 
-<script>
+<script>    //load external HTML
     $("#nav").load('navigation.html');
     $("#foot").load('footer.html');
 </script>
