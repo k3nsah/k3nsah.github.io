@@ -129,3 +129,8 @@ tr:hover {
 .view-all:hover {
     background: #E1E1E1;
 }
+
+.ico {
+    width:35px;
+    height: 35px;
+}
