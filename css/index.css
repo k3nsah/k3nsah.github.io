@@ -165,7 +165,7 @@ ins {
     text-decoration: none;
 }
 ins::before {
-    content: "(correction)";
+    content: "(hex)";
     font-size: 0.6em;
     display: block;
     pointer-events: none;
@@ -173,7 +173,7 @@ ins::before {
     color: #659b82;
     transition: all 500ms ease;
     top: -2em;
-    left: 0;
+    left: 0.3em;
     opacity: 0;
 }
 ins:hover del {

@@ -1,11 +1,13 @@
 body {
     z-index: 4;
+    opacity: 100%;
 }
 
 .half-heart {
     width: 1.0625em;
     height: 1.0625em;
     margin: 0px 1em;
+
 }
 
 .icons {
