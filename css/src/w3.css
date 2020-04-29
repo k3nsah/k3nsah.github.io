@@ -234,10 +234,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
 /*GLOBAL*/
-.subheading {
-    color: #44A08D;
-}
-
 .no-select {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -268,10 +264,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 /* NAVIGATION */
-body {
-    z-index: 999999;
-}
-
 .logo {
     width: 2.1em;
     height: 2.1em;
@@ -290,7 +282,10 @@ body {
 
 .desktop-nav {
     background-color: #fff;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    font-family: sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
     color: #000;
     width:100%;
     overflow: hidden;

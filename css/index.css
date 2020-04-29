@@ -62,6 +62,10 @@ body {
     box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.12);
 }
 
+.spacer {
+    height: 40px;
+}
+
 table {
     font-family: 'Source Sans Pro', sans-serif;
     border-collapse: collapse;
