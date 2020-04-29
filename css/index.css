@@ -46,9 +46,9 @@ body {
 
 .sub-RP {
     color: #26403A;
-    font-family: Verdana,sans-serif;
+    font-family: sans-serif;
     /* top | right | bottom | left */
-    font-weight: 600;
+    font-weight: 900;
     margin-left: 100px;
 }
 

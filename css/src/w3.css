@@ -340,3 +340,32 @@ nav a:focus {
     -moz-transform: translateY(-5px);
     transform: translateY(-5px);
 }
+
+/* FOOTER */
+.half-heart {
+    width: 1.0625em;
+    height: 1.0625em;
+    margin: 0px 1em;
+
+}
+
+.icons {
+    width: 1.6em;
+    height: 1.6em;
+    margin: 1em 0.4em;
+    float: right;
+    display: inline-block;
+    opacity: 40%;
+}
+
+.footerCSS {
+    background: #92B0AA;
+    z-index: 5;
+    opacity: 100%;
+}
+
+footer p {
+    display: inline-block;
+    color: #355851;
+    font-size: 1.0em;
+}
