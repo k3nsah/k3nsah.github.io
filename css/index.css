@@ -15,10 +15,15 @@ body {
 }
 
 
-.posts {
+.latest {
     background: linear-gradient(-45deg, #C9DBD7, #92b0aa);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+}
+
+.latest p {
+    color: #000;
+    font-size: 14px;
 }
 
 @keyframes gradient {
@@ -68,20 +73,11 @@ body {
     margin-bottom: 0px;
 }
 
-.skills {
-    margin-left: 2em;
-}
-
 .keys {
     width: 1em;
     height: 1em;
     opacity: 1;
     margin: 0px 0.3em;
-}
-
-.posts p {
-    color: #000;
-    font-size: 14px;
 }
 
 table {
@@ -149,5 +145,60 @@ tr:hover {
 
 .newID:active {
     border-style: none;
-    border: 1px dashed #99845B;;
+    border: 1px dashed #99845B;
+}
+
+quote {
+    font-size: 1.5em;
+}
+
+quote::before {
+    content: "\201C";
+}
+quote::after {
+    content: "\201D";
+}
+ins {
+    color: rgba(132, 175, 155, 0.75);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+ins::before {
+    content: "(correction)";
+    font-size: 0.6em;
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    color: #659b82;
+    transition: all 500ms ease;
+    top: -2em;
+    left: 0;
+    opacity: 0;
+}
+ins:hover del {
+    max-width: 9em;
+}
+ins:hover::before {
+    opacity: 1;
+    top: -1.2em;
+}
+ins del {
+    color: rgba(255, 107, 107, 0.75);
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    transition: all 500ms ease;
+    max-width: 0;
+}
+ins del::before {
+    content: "\00a0";
+    visibility: hidden;
+}
+
+.quote-box {
+    width: 100%;
+    text-align: center;
+    margin: 2em 0px;
 }
