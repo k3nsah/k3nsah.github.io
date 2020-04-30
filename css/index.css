@@ -78,6 +78,7 @@ tr {
     border-bottom: 1px solid #BCCECA; /* #B2C4C0 == #92B0AA w/ opacity --> 62% */
     text-align: left;
     padding: 1em 0.2em;
+    cursor: pointer;
 
 }
 
