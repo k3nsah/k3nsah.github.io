@@ -290,9 +290,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     width:100%;
     overflow: hidden;
     padding: 5px 0px;
-    float:left;
-    border:none;
-    display:block;
+    float: left;
+    border: none;
+    display: block;
     outline:0;
 }
 
