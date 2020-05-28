@@ -52,6 +52,10 @@ body {
     margin-left: 100px;
 }
 
+.t-row:hover {
+    background: rgba(146, 176, 170, 0.62); /* #92B0AA w/ opacity --> 62% */
+}
+
 .table-toprow {
     border-top: none;
 }
