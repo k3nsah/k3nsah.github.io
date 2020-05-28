@@ -52,6 +52,13 @@ body {
     margin-left: 100px;
 }
 
+.table-toprow {
+    border-top: none;
+}
+
+.table-bottomrow {
+    border-bottom: none;
+}
 
 .sign {
     background: #f8f7f7;
@@ -86,11 +93,7 @@ td {
     text-align: left;
     padding: 1em 0.2em;
     border-radius: 2px;
-}
-
-.tr-last {
-    border-bottom: none;
-}
+}s
 
 tr:hover {
     background: rgba(146, 176, 170, 0.62); /* #92B0AA w/ opacity --> 62% */
