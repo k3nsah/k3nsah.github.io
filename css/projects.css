@@ -40,11 +40,10 @@ html {
 }
 
 #searchinput {
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
+    backround: none;
     width: 100%;
     font-size: 12px;
-    padding: 12px 20px 12px 30px;
+    padding: 12px 20px 10px 30px;
     border: 1px solid #ddd;
     margin-bottom: 12px;
     color: #000;
