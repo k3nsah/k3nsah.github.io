@@ -7,61 +7,61 @@ document.addEventListener('DOMContentLoaded', function() {
 {
   id: 1,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/kelci.png',
+  image: 'memoji/kelci.png',
   label: 'kelci'
 },
 {
   id: 2,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/madison.png',
+  image: 'memoji/madison.png',
   label: 'madison'
 },
 {
   id: 3,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/khanh.png',
+  image: 'memoji/khanh.png',
   label: 'khanh'
 },
 {
   id: 4,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/anjelica.png',
+  image: 'memoji/anjelica.png',
   label: 'anjelica'
 },
 {
   id: 5,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/gloria.png',
+  image: 'memoji/gloria.png',
   label: 'gloria'
 },
 {
   id: 6,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/shambhavi.png',
+  image: 'memoji/shambhavi.png',
   label: 'shambhavi'
 },
 {
   id: 7,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/sammi.png',
+  image: 'memoji/sammi.png',
   label: 'sammi'
 },
 {
   id: 8,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/afsana.png',
+  image: 'memoji/afsana.png',
   label: 'afsana'
 },
 {
   id: 9,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/isabella.png',
+  image: 'memoji/isabella.png',
   label: 'isabella'
 },
 {
   id: 10,
   shape: 'image',
-  image: 'https://github.com/k3nsah/memoji-friendgraph/blob/main/memoji/tiana.png',
+  image: 'memoji/tiana.png',
   label: 'tiana'
 }
     ],
