@@ -7,37 +7,37 @@ document.addEventListener('DOMContentLoaded', function() {
 {
   id: 1,
   shape: 'image',
-  image: '../images/friends/kelci.png',
+  image: '../images/memoji/kelci.png',
   label: 'kelci'
 },
 {
   id: 2,
   shape: 'image',
-  image: '../images/friends/madison.png',
+  image: '../images/memoji/madison.png',
   label: 'madison'
 },
 {
   id: 3,
   shape: 'image',
-  image: '../images/friends/khanh.png',
+  image: '../images/memoji/khanh.png',
   label: 'khanh'
 },
 {
   id: 4,
   shape: 'image',
-  image: '../images/friends/anjelica.png',
+  image: '../images/memoji/anjelica.png',
   label: 'anjelica'
 },
 {
   id: 5,
   shape: 'image',
-  image: '../images/friends/gloria.png',
+  image: '../images/memoji/gloria.png',
   label: 'gloria'
 },
 {
   id: 6,
   shape: 'image',
-  image: '../images/friends/shambhavi.png',
+  image: '../images/memoji/shambhavi.png',
   label: 'shambhavi'
 },
 {
