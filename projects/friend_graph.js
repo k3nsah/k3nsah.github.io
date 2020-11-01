@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
       //madison - 2
       {from: 2, to: 6},
       {from: 2, to: 7},
-      {from: 2, to: 8},
 
       //khanh - 3
       {from: 3, to: 4},
@@ -77,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       //shambhavi - 7
       {from: 6, to: 7},
+      {from: 6, to: 8},
 
     ]
   }
