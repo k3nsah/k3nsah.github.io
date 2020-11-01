@@ -57,6 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
   shape: 'image',
   image: 'memoji/isabella.png',
   label: 'isabella'
+},
+{
+  id: 10,
+  shape: 'image',
+  image: 'memoji/tiana.png',
+  label: 'tiana'
 }
     ],
     edges: [
@@ -89,6 +95,12 @@ document.addEventListener('DOMContentLoaded', function() {
       //shambhavi - 7
       {from: 6, to: 7},
       {from: 6, to: 8},
+
+      //tiana - 10
+      {from: 10, to: 5},
+      {from: 10, to: 3},
+      {from: 10, to: 9},
+      {from: 10, to: 1},
 
     ]
   }
