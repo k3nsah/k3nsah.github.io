@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
       {from: 1, to: 8},
 
       //madison - 2
+      {from: 2, to: 5},
       {from: 2, to: 6},
       {from: 2, to: 7},
 
