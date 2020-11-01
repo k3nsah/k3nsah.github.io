@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
       //tiana - 10
       {from: 10, to: 5},
       {from: 10, to: 3},
-      {from: 10, to: 9},
+      {from: 10, to: 8},
       {from: 10, to: 1},
 
     ]
