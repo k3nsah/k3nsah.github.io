@@ -51,6 +51,12 @@ document.addEventListener('DOMContentLoaded', function() {
   shape: 'image',
   image: 'memoji/afsana.png',
   label: 'afsana'
+},
+{
+  id: 9,
+  shape: 'image',
+  image: 'memoji/isabella.png',
+  label: 'isabella'
 }
     ],
     edges: [
@@ -62,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       {from: 1, to: 6},
       {from: 1, to: 7},
       {from: 1, to: 8},
+      {from: 1, to: 9},
 
       //madison - 2
       {from: 2, to: 5},
@@ -71,9 +78,13 @@ document.addEventListener('DOMContentLoaded', function() {
       //khanh - 3
       {from: 3, to: 4},
       {from: 3, to: 5},
+      {from: 3, to: 9},
 
       //anjelica - 4
       {from: 4, to: 5},
+
+      //gloria - 5
+      {from: 5, to: 9},
 
       //shambhavi - 7
       {from: 6, to: 7},
