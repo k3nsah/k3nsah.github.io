@@ -7,43 +7,43 @@ document.addEventListener('DOMContentLoaded', function() {
 {
   id: 1,
   shape: 'image',
-  image: '../images/memoji/kelci.png',
+  image: '../projects/memoji/kelci.png',
   label: 'kelci'
 },
 {
   id: 2,
   shape: 'image',
-  image: '../images/memoji/madison.png',
+  image: '../projects/memoji/madison.png',
   label: 'madison'
 },
 {
   id: 3,
   shape: 'image',
-  image: '../images/memoji/khanh.png',
+  image: '../projects/memoji/khanh.png',
   label: 'khanh'
 },
 {
   id: 4,
   shape: 'image',
-  image: '../images/memoji/anjelica.png',
+  image: '../projects/memoji/anjelica.png',
   label: 'anjelica'
 },
 {
   id: 5,
   shape: 'image',
-  image: '../images/memoji/gloria.png',
+  image: '../projects/memoji/gloria.png',
   label: 'gloria'
 },
 {
   id: 6,
   shape: 'image',
-  image: '../images/memoji/shambhavi.png',
+  image: '../projects/memoji/shambhavi.png',
   label: 'shambhavi'
 },
 {
   id: 7,
   shape: 'image',
-  image: '../images/friends/sammi.png',
+  image: '../projects/memoji/sammi.png',
   label: 'sammi'
 }
     ],
