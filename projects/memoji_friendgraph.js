@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       //anjelica - 4
       {from: 4, to: 5},
+      {from: 4, to: 10},
 
       //gloria - 5
       {from: 5, to: 9},
