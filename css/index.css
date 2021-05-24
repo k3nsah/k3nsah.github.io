@@ -159,7 +159,7 @@ ins:hover::before {
     top: -1.2em;
 }
 ins del {
-    color: rgba(255, 107, 107, 0.75);
+    color: #426BFB;
     text-decoration: none;
     display: inline-block;
     vertical-align: bottom;
