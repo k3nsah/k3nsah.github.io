@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+
     <title>Kelci Mensah</title>
+
+<!-- COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS -->
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/src/w3.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link rel="stylesheet" href="../css/components/tea.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<!-- FONTS * FONTS * FONTS * FONTS * FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<!-- FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="manifest" href="/favicons/site.webmanifest">
@@ -19,6 +24,7 @@
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
 <style>
     .w-body {
         max-width: 55%;
@@ -82,62 +88,64 @@
         padding: 2.5px 5px 2.5px;
         background-color: #EAECF2;
     }
-
 </style>
 </head>
+
 <body>
-<!-- loader -->
-<div class="no-select loader-wrapper">
-    <div class="loader">
-        <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"
-                  stroke="var(--secondary)" stroke-width="2"></path>
-            <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"
-                  stroke="var(--secondary)" stroke-width="2"></path>
-            <path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd"
-                  d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
-            <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" stroke="var(--secondary)"></path>
-            <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)"
-                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-    </div>
-</div>
-
-<!-- navigation -->
-<div id="navID"></div>
-
-<div class="w-body">
-    <table>
-        <tr>
-            <td><h1>Welcome to My Memoji Network!</h1></td>
-            <td><img class="ico" src="../images/shorts/memoji.png"></td>
-        </tr>
-    </table>
-
-    <p style="display: inline-block; color: #3B3B3B">1 NOV 2020&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;tags: </p>
-    <div class="tags">
-        <button>apple</button>
-        <button>memoji</button>
-        <button>javascript</button>
+<!-- PAGE LOADER * PAGE LOADER * PAGE LOADER * PAGE LOADER -->
+    <div class="no-select loader-wrapper">
+        <div class="loader">
+            <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"
+                      stroke="var(--secondary)" stroke-width="2"></path>
+                <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"
+                      stroke="var(--secondary)" stroke-width="2"></path>
+                <path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+                <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" stroke="var(--secondary)"></path>
+                <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)"
+                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </div>
     </div>
 
-    <p>I've been looking online for a graphical way to visually represent some of the connections I've made in the CS, ITI, and Engineering communities during my first year in university but there doesn't seem to be a simple way to do so. I've created this <span class="highlight">network graph</span> below using Apple's trademark <a href="https://support.apple.com/en-us/HT208986"><span class="highlight">memoji</span></a> stickers and the  <a href="https://visjs.org/"><span class="highlight">Vis.js</span></a> javascript library.</p>
+<!-- NAVIGATION BAR * NAVIGATION BAR * NAVIGATION BAR -->
+    <div id="navID"></div>
 
-    <div id="graph"></div>
-    <script src="memoji_friendgraph.js"></script>
+<!-- FRIENDGRAPH CONTENT * FRIENDGRAPH CONTENT * FRIENDGRAPH CONTENT -->
+    <div class="w-body">
+        <table>
+            <tr>
+                <td><h1>Welcome to My Memoji Network!</h1></td>
+                <td><img class="ico" src="../images/shorts/memoji.png"></td>
+            </tr>
+        </table>
 
-    <p>There are still a lot of things that I'd like to be working on with this project, for example figuring out the best way to display nodes with text in an uncrowded and non-confusing way. Check out the source code if you're interested in doing something similar <a href="https://github.com/k3nsah/memoji-friendgraph"><span class="highlight">here</span></a><p>
+        <p style="display: inline-block; color: #3B3B3B">1 NOV 2020&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;tags: </p>
+        <div class="tags">
+            <button>apple</button>
+            <button>memoji</button>
+            <button>javascript</button>
+        </div>
 
-    <a style="text-decoration: none" href="../projects.html"><p style="color: #c4c4c4">← go back to projects page</p></a>
+        <p>I've been looking online for a graphical way to visually represent some of the connections I've made in the CS, ITI, and Engineering communities during my first year in university but there doesn't seem to be a simple way to do so. I've created this <span class="highlight">network graph</span> below using Apple's trademark <a href="https://support.apple.com/en-us/HT208986"><span class="highlight">memoji</span></a> stickers and the  <a href="https://visjs.org/"><span class="highlight">Vis.js</span></a> javascript library.</p>
 
-</div>
+        <div id="graph"></div>
+        <script src="memoji_friendgraph.js"></script>
+
+        <p>There are still a lot of things that I'd like to be working on with this project, for example figuring out the best way to display nodes with text in an uncrowded and non-confusing way. Check out the source code if you're interested in doing something similar <a href="https://github.com/k3nsah/memoji-friendgraph"><span class="highlight">here</span></a><p>
+
+        <a style="text-decoration: none" href="../projects.html"><p style="color: #c4c4c4">← go back to projects page</p></a>
+    </div>
 </body>
-<footer><div id="footerID"></div></footer>
+
+<!-- FOOTER * FOOTER * FOOTER * FOOTER * FOOTER -->
+    <footer><div id="footerID"></div></footer>
 </html>
 
-<script> //tea cup pre-loader shown while rest of elements load properly
-$(document).ready(function () {
+<script>
+$(document).ready(function () { //page loader
     preloaderFadeOutTime = 1000;
 
     function hidePreloader() {
@@ -146,13 +154,9 @@ $(document).ready(function () {
     }
     hidePreloader();
 });
-</script>
 
-<script>    //load external HTML
 $("#navID").load('navigation.html');
-</script>
 
-<script>
 function myFunction() { //toggle NAVIGATION for @mobile screens
     var x = document.getElementById("mobile-nav");
     if (x.className.indexOf("w3-show") == -1) {

@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <title>ERROR 404</title>
+
+    <!-- COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-
         <link rel="stylesheet" href="css/components/tea.css">
         <link rel="stylesheet" href="css/src/w3.css">
-
         <link rel="stylesheet" href="css/404.css">
+
+    <!-- FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#603cba">
+        <link rel="shortcut icon" href="/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
     </head>
 
     <body>
-
-    <!-- PAGE LOADER -->
+    <!-- PAGE LOADER * PAGE LOADER * PAGE LOADER * PAGE LOADER -->
     <div class="loader-wrapper">
         <div class="loader">
             <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,29 +43,26 @@
             </svg>
         </div>
     </div>
-    <!-- END of PAGE LOADER -->
 
-    <!-- CONTAINER -->
-    <div class="bucket">
-        <h1>ERROR 404</h1>
+    <!-- ERROR 404 CONTENT * ERROR 404 CONTENT * ERROR 404 CONTENT -->
+        <div class="bucket">
+            <h1>ERROR 404</h1>
 
-        <p>This means that you either tried to access a page that doesn't exist or the website is having problems :( <br> Go
-            back and try again.</p>
+            <p>This means that you either tried to access a page that doesn't exist or the website is having problems :( <br> Go
+                back and try again.</p>
 
-        <button id="return-button">Go Back</button>
+            <button id="return-button">Go Back</button>
 
-        <div class="plants">
-            <img class="magenta" src="images/decor/magenta.svg">
-            <img class="evergreen" src="images/decor/evergreen.svg">
+            <div class="plants">
+                <img class="magenta" src="images/decor/magenta.svg">
+                <img class="evergreen" src="images/decor/evergreen.svg">
+            </div>
         </div>
-    </div>
-    <!-- END of CONTAINER -->
-
     </body>
 </html>
 
 <script>
-$(document).ready(function () { //for tea-cup page loader
+$(document).ready(function () { //page loader
     preloaderFadeOutTime = 600;
 
     function hidePreloader() {

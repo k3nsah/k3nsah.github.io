@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <title>Kelci Mensah</title>
+
+<!-- COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-
     <link rel="stylesheet" href="css/src/w3.css">
+    <link rel="stylesheet" href="css/components/tea.css">
+    <link rel="stylesheet" href="css/components/complete.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<!-- FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="manifest" href="/favicons/site.webmanifest">
@@ -19,18 +24,15 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="css/components/tea.css">
-    <link rel="stylesheet" href="css/components/complete.css">
-    <link rel="stylesheet" href="css/index.css">
 <body >
+<!-- PAGE LOADER * PAGE LOADER * PAGE LOADER * PAGE LOADER -->
+    <div class="no-select loader-wrapper"><div class="loader">
+            <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="var(--secondary)" stroke-width="2"></path><path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="var(--secondary)" stroke-width="2"></path><path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path><path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path><path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </div>
+    </div>
 
-<!-- loader -->
-<div class="no-select loader-wrapper"><div class="loader">
-        <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="var(--secondary)" stroke-width="2"></path><path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="var(--secondary)" stroke-width="2"></path><path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path><path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path><path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-    </div></div>
-
-<!-- navigation -->
-<div id="nav"></div>
+<!-- NAVIGATION BAR * NAVIGATION BAR * NAVIGATION BAR -->
+    <div id="nav"></div>
 <img class="no-select l-nav" src="images/navleaf.png">
 
 <!-- mobile spacing temporary fix -->
@@ -99,23 +101,21 @@
 </div>
 </body>
 
-<footer><div class="footerCSS" id="footerID"></div></footer>
-
+<!-- FOOTER * FOOTER * FOOTER * FOOTER * FOOTER -->
+    <footer><div class="footerCSS" id="footerID"></div></footer>
 </html>
 
 <script>
-$(document).ready(function() {  //tea cup pre-loader shown while rest of elements load properly
+$(document).ready(function() {  //page loader
     preloaderFadeOutTime = 1000;
     function hidePreloader() {
         var preloader = $('.loader-wrapper');
         preloader.fadeOut(preloaderFadeOutTime);
     }
     hidePreloader();
-}); // END
-</script>
+});
 
-<script>    //toggle NAVIGATION menu for @mobile screens
-function myFunction() {
+function myFunction() { //toggle NAVIGATION menu for @mobile screens
     var x = document.getElementById("mobile-nav");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
@@ -123,9 +123,8 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-</script>
 
-<script>    //load external HTML
+//load external HTML
     $("#nav").load('navigation.html');
     $("#footerID").load('footer.html');
 </script>

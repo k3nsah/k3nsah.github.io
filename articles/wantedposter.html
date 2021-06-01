@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kelci Mensah</title>
-    <link rel="stylesheet" href="../css/src/w3.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <link rel="stylesheet" href="../css/components/tea.css">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <title>Kelci Mensah</title>
+
+<!-- COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/src/w3.css">
+    <link rel="stylesheet" href="../css/components/tea.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<!-- FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON * FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="manifest" href="/favicons/site.webmanifest">
@@ -17,6 +20,7 @@
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
 <style>
     .w-body {
         max-width: 55%;
@@ -92,8 +96,9 @@
     }
 </style>
 </head>
+
 <body>
-<!-- loader -->
+<!-- PAGE LOADER * PAGE LOADER * PAGE LOADER * PAGE LOADER -->
 <div class="no-select loader-wrapper">
     <div class="loader">
         <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -110,10 +115,10 @@
         </svg>
     </div>
 </div>
+<!-- NAVIGATION BAR * NAVIGATION BAR * NAVIGATION BAR -->
+    <div id="navID"></div>
 
-<!-- navigation -->
-<div id="navID"></div>
-
+<!-- PILLAGER WANTED POSTER CONTENT * PILLAGER WANTED POSTER CONTENT-->
 <div class="w-body">
     <table>
         <tr>
@@ -159,11 +164,13 @@
     <a style="text-decoration: none" href="../articles.html"><p style="color: #c4c4c4">← go back to articles page</p></a>
 </div>
 </body>
-<footer><div id="footerID"></div></footer>
+
+<!-- FOOTER * FOOTER * FOOTER * FOOTER * FOOTER -->
+    <footer><div id="footerID"></div></footer>
 </html>
 
-<script> //tea cup pre-loader shown while rest of elements load properly
-$(document).ready(function () {
+<script>
+$(document).ready(function () { //page loader
     preloaderFadeOutTime = 1000;
 
     function hidePreloader() {
@@ -172,13 +179,9 @@ $(document).ready(function () {
     }
     hidePreloader();
 });
-</script>
 
-<script>    //load external HTML
 $("#navID").load('navigation.html');
-</script>
 
-<script>
 function myFunction() { //toggle NAVIGATION for @mobile screens
     var x = document.getElementById("mobile-nav");
     if (x.className.indexOf("w3-show") == -1) {
