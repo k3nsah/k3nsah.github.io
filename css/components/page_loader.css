@@ -1,0 +1,83 @@
+/* reference: https://codepen.io/havardob/pen/VjjJey/ */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    background: #fff;
+  }
+
+  .pageloader_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999999;
+  }
+
+  .pageloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 10px;
+    background: #426BFB;
+    border-radius: 5px;
+    -webkit-animation: load 1.8s ease-in-out infinite;
+            animation: load 1.8s ease-in-out infinite;
+  }
+  .pageloader:before, .pageloader:after {
+    position: absolute;
+    display: block;
+    content: "";
+    -webkit-animation: load 1.8s ease-in-out infinite;
+            animation: load 1.8s ease-in-out infinite;
+    height: 10px;
+    border-radius: 5px;
+  }
+  .pageloader:before {
+    top: -20px;
+    left: 10px;
+    width: 40px;
+    background: #1C2237;
+  }
+  .pageloader:after {
+    bottom: -20px;
+    width: 35px;
+    background: #C4CADF;
+  }
+  
+  @-webkit-keyframes load {
+    0% {
+      transform: translateX(40px);
+    }
+    50% {
+      transform: translateX(-30px);
+    }
+    100% {
+      transform: translateX(40px);
+    }
+  }
+  
+  @keyframes load {
+    0% {
+      transform: translateX(40px);
+    }
+    50% {
+      transform: translateX(-30px);
+    }
+    100% {
+      transform: translateX(40px);
+    }
+  }

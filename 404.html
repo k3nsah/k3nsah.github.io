@@ -7,8 +7,7 @@
     <!-- COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS * COMPONENTS -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <link rel="stylesheet" href="css/components/tea.css">
+        <link rel="stylesheet" href="css/components/page_loader.css">
         <link rel="stylesheet" href="css/src/w3.css">
         <link rel="stylesheet" href="css/404.css">
 
@@ -61,19 +60,6 @@
     </body>
 </html>
 
-<script>
-$(document).ready(function () { //page loader
-    preloaderFadeOutTime = 600;
-
-    function hidePreloader() {
-        var preloader = $('.loader-wrapper');
-        preloader.fadeOut(preloaderFadeOutTime);
-    }
-
-    hidePreloader();
-});
-
-document.getElementById("return-button").onclick = function () {
-    location.href = "index.html";
-};
-</script>
+<!-- JAVASCRIPT * JAVASCRIPT * JAVASCRIPT * JAVASCRIPT * JAVASCRIPT -->    
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script type="text/javascript" src="global.js"></script>
