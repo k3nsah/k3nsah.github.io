@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
 
+/* HEADER */
 :root {
-    --lightblue: #e3e9fe;
-    --fontcolor: #e3e9fe;
-    --h1size: calc(1em + 3.5vw);
+    --h1size: calc(1em + 3vw);
 }
 
 @media screen and (max-width: 1440px) {
@@ -25,7 +24,6 @@
         display: none;
     }
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -56,9 +54,9 @@ figure {
     margin: 0 auto;
 }
 
-.hero:nth-child(1) figure {
+/* .hero:nth-child(1) figure {
     background-color: #dde4fe;
-}
+} */
 
 .hero-inner {
     position: absolute;
@@ -75,12 +73,6 @@ figure {
     }
 }
 
-@media (min-width: 1200px) {
-    .hero__title {
-        font-size: 6rem;
-    }
-}
-
 .index_container {
     position: fixed;
     width: 100%;
@@ -94,12 +86,13 @@ figure {
     overflow: hidden;
     pointer-events: auto;
     height: 100vh;
-    background: linear-gradient(-30deg, #D2C6FF, #BCCEFF, #EEF1FF, #DDE4FE);
+    background-color: #6C8CFC;
+    /* background: linear-gradient(-30deg, #e5ebff, #c4d1ff, #9FB4FF, #6c8cfc);
     background-size: 500% 500%;
-    animation: gradient 30s ease infinite;
+    animation: gradient 30s ease infinite; */
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -109,57 +102,33 @@ figure {
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 .container_title {
-    color: #e3e9fe;
-    line-height: 1;
-    font-family: "Inter", sans-serif;
-    font-weight: 900;
-    font-size: calc(1em + 18vw);
-    justify-content: center;
-    text-align: center;
-    text-shadow: -0.0075em 0.0075em 0 #f4f6ff, 0.005em 0.005em 0 #b3c4fd, 0.01em 0.01em 0 #b7c7fd, 0.015em 0.015em #bbcafe, 0.02em 0.02em 0 #bfcdfe, 0.025em 0.025em 0 #c3d0fe, 0.03em 0.03em 0 #c6d3fe, 0.035em 0.035em 0 #cad6fe;
-}
-
-.index_container {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    padding: 0 1rem;
-    font-family: "Inter", sans-serif;
-    background-color: #dde4fe;
-    overflow: hidden;
-    pointer-events: auto;
-    height: 100vh;
-}
-
-.container_title {
-    color: var(--lightblue);
+    color: #7190fc;
     line-height: 1;
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: var(--h1size);
     justify-content: center;
     text-align: center;
-    text-shadow: -0.0075em 0.0075em 0 #f4f6ff, 0.005em 0.005em 0 #b3c4fd, 0.01em 0.01em 0 #b7c7fd, 0.015em 0.015em #bbcafe, 0.02em 0.02em 0 #bfcdfe, 0.025em 0.025em 0 #c3d0fe, 0.03em 0.03em 0 #c6d3fe, 0.035em 0.035em 0 #cad6fe;
+    text-shadow: -0.0075em 0.0075em 0 #829dfc, 0.005em 0.005em 0 #426bfb, 0.01em 0.01em 0 #466efb, 0.015em 0.015em #4a71fb, 0.02em 0.02em 0 #4d74fb, 0.025em 0.025em 0 #5177fb, 0.03em 0.03em 0 #557afb, 0.035em 0.035em 0 #597dfb;
 }
 
 .letter {
-    width: 12.2vh;
+    width: auto;
+    height:  auto;
     display: inline-block;
     vertical-align: middle;
     position: relative;
+    font-family: "Inter", sans-serif;
     overflow: hidden;
     margin: 0 0;
     font-size: var(--h1size);
+    font-weight: 900;
     line-height: var(--h1size);
-    text-transform: uppercase;
-    color: var(--lightblue);
+    color: #7190fc;
+    z-index: 200;
 
 }
 
@@ -169,7 +138,7 @@ figure {
     left: 0;
     width: 100%;
     word-break: break-all;
-    background-color: #EEF1FF;
+    background-color: #6C8CFC;
 }
 .letter:nth-child(1):before {
     content: "6273145098";
@@ -379,76 +348,30 @@ figure {
         margin-top: var(--h1size);
     }
 }
-.letter:nth-child(14):before {
-    content: "0123875496";
-    margin-top: -4800px;
-    animation-name: letter14;
-    animation-duration: 0.1066666667s;
-    animation-delay: 0.96s;
-    animation-fill-mode: forwards;
-}
-@keyframes letter14 {
-    from {
-        margin-top: -4800px;
-    }
-    to {
-        margin-top: var(--h1size);
-    }
-}
-.letter:nth-child(15):before {
-    content: "8243617095";
-    margin-top: -1680px;
-    animation-name: letter15;
-    animation-duration: 3.255s;
-    animation-delay: 0.07s;
-    animation-fill-mode: forwards;
-}
-@keyframes letter15 {
-    from {
-        margin-top: -1680px;
-    }
-    to {
-        margin-top: var(--h1size);
-    }
-}
-.letter:nth-child(16):before {
-    content: "5602879431";
-    margin-top: -1440px;
-    animation-name: letter16;
-    animation-duration: 2.3657142857s;
-    animation-delay: 0.31s;
-    animation-fill-mode: forwards;
-}
-@keyframes letter16 {
-    from {
-        margin-top: -1440px;
-    }
-    to {
-        margin-top: var(--h1size);
-    }
-}
-
-
-.csshover {
-    text-align:center;
-    color:#fff;
-    background-color:#000000;
-    -webkit-transition:all 1s ease-in-out;
-    -moz-transition:all 1s ease-in-out;
-    -o-transition:all 1s ease-in-out;
-}
-.csshover:hover{
-    background-color:rgba(100,100,100,0);
-    opacity:0;
-}
 
 /* LEAF DECORATIONS */
-    .solid_leaf {
-        width: 40vh;
+    .solid_leaf_mobile {
+        width: 25vh;
         position: absolute;
         left: 80%;
         transform: rotate(230deg);
-        top: -20%;
+        top: 0%;
+        z-index: 100;
+    }
+
+    .leaf_bunch {
+        width: 110vh;
+        position: absolute;
+        left: -19%;
+        top: 45%;
+        z-index: 100;
+    }
+
+    .floating_leaf_bunch {
+        width: 110vh;
+        position: absolute;
+        z-index: 100;
+        left: 46%;
     }
 
 /* PROJECT UPDATES SECTION IN INDEX PAGE */
