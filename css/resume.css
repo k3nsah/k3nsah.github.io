@@ -2,97 +2,98 @@ body {
     overflow-x: hidden;
 }
 
-.interactive {
-    margin-top: 16px;
-    margin-left:auto;
-    margin-right:auto
-}
-
-.green01 {
-    color: #44A08D;
-}
-
-.green01-bc {
-    background-color: #44A08D;
-}
-
-.topic {
-    color: #5C5C5C;
-    font-family: 'Sarabun', sans-serif;
-}
-
-.indent {
-    margin-left: 50px;
-}
-
-.pull-top {
-    margin-top: -18px;
-}
-
-.pull-top-date {
-    margin-top: -12px;
-}
-
-.rounder {
-    border-radius: 7px;
-}
-
-#btn-download {
-    cursor: pointer;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    position: relative;
-    -webkit-tap-highlight-color: transparent;
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: -0px;
-}
-
-#btn-download svg {
-    margin: 16px 0 0 16px;
-    fill: none;
-    transform: translate3d(0, 0, 0);
-}
-
-#btn-download svg polyline,
-#btn-download svg path {
-    stroke: #0077FF;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    transition: all .3s ease;
-    transition-delay: .3s;
-}
-
-#btn-download svg path#check {
-    stroke-dasharray: 38;
-    stroke-dashoffset: 114;
-    transition: all .4s ease;
-}
-
-#btn-download.downloaded svg .svg-out {
-    opacity: 0;
-    animation: drop .3s linear;
-    transition-delay: .4s;
-}
-
-#btn-download.downloaded svg path#check {
-    stroke: #20CCA5;
-    stroke-dashoffset: 174;
-    transition-delay: .4s;
-}
-
-@keyframes drop {
-    20% {
-        transform: translate(0, -3px);
+/* RESUME CONTENT SECTION  */
+    .interactive {
+        margin-top: 16px;
+        margin-left:auto;
+        margin-right:auto
     }
 
-    80% {
-        transform: translate(0, 2px);
+    .green01 {
+        color: #44A08D;
     }
 
-    95% {
-        transform: translate(0, 0);
+    .green01-bc {
+        background-color: #44A08D;
     }
-}
+
+    .topic {
+        color: #5C5C5C;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    .indent {
+        margin-left: 50px;
+    }
+
+    .pull-top {
+        margin-top: -18px;
+    }
+
+    .pull-top-date {
+        margin-top: -12px;
+    }
+
+    .rounder {
+        border-radius: 7px;
+    }
+
+    #btn-download {
+        cursor: pointer;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        position: relative;
+        -webkit-tap-highlight-color: transparent;
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: -0px;
+    }
+
+    #btn-download svg {
+        margin: 16px 0 0 16px;
+        fill: none;
+        transform: translate3d(0, 0, 0);
+    }
+
+    #btn-download svg polyline,
+    #btn-download svg path {
+        stroke: #0077FF;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transition: all .3s ease;
+        transition-delay: .3s;
+    }
+
+    #btn-download svg path#check {
+        stroke-dasharray: 38;
+        stroke-dashoffset: 114;
+        transition: all .4s ease;
+    }
+
+    #btn-download.downloaded svg .svg-out {
+        opacity: 0;
+        animation: drop .3s linear;
+        transition-delay: .4s;
+    }
+
+    #btn-download.downloaded svg path#check {
+        stroke: #20CCA5;
+        stroke-dashoffset: 174;
+        transition-delay: .4s;
+    }
+
+    @keyframes drop {
+        20% {
+            transform: translate(0, -3px);
+        }
+
+        80% {
+            transform: translate(0, 2px);
+        }
+
+        95% {
+            transform: translate(0, 0);
+        }
+    }
