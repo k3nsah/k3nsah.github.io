@@ -20,6 +20,7 @@ function myFunction() {
 
 /* LOAD IN EXTERNAL Navigation Bar AND Footer */
 $("#navID").load('navigation.html');
+$("#index_navID").load('index_nav.html');
 $("#footerID").load('footer.html');
 
 /* SEARCH FUNCTION FOR Projects AND Articles LISTED CONTENT */
