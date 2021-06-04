@@ -31,7 +31,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-@media screen and (max-width: 424px) {
+/* @media screen and (max-width: 424px) {
     .evergreen, .sylvia, .cynth {
         filter: blur(2px);
     }
@@ -41,7 +41,7 @@ body {
     .evergreen, .sylvia, .cynth {
         filter: blur(4px);
     }
-}
+} */
 
 /* LEAF DECORATIONS */
 .evergreen {
@@ -50,6 +50,7 @@ body {
     left: -7%;
     top: 48vh;
     z-index: -1;
+    --animate-duration: 1.5s;
 }
 
 .sylvia {
@@ -58,13 +59,56 @@ body {
     left: 90vh;
     top: 5vh;
     z-index: -1;
+    --animate-duration: 1.5s;
+}
+
+@media (min-width: 1025px) {
+    .cynth {
+        display:none!important;
+    }
 }
 
 .cynth {
     width: 60vh;
     position: absolute;
     left: 0;
-    top: -69vh;
+    top: -62vh;
     z-index: -1;
+    --animate-duration: 1.5s;
 }
 
+.cynth_2 {
+    width: 120vh;
+    position: absolute;
+    left: 32vh;
+    top: -69vh;
+    z-index: -1;
+    --animate-duration: 1.5s;
+}
+
+.cynth_outline {
+    width: 190vh;
+    position: absolute;
+    left: 90vh;
+    top: 20vh;
+    z-index: -1;
+    --animate-duration: 1.5s;
+}
+
+.poppy {
+    width: 40vh;
+    position: absolute;
+    left: 120vh;
+    top: 76vh;
+    z-index: -1;
+    --animate-duration: 1.5s;
+}
+
+.grass {
+    width: 40vh;
+    position: absolute;
+    left: 40vh;
+    top: 82vh;
+    z-index: -1;
+    --animate-duration: 1.5s;
+}
