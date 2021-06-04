@@ -31,6 +31,18 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+@media screen and (max-width: 424px) {
+    .evergreen, .sylvia, .cynth {
+        filter: blur(2px);
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .evergreen, .sylvia, .cynth {
+        filter: blur(4px);
+    }
+}
+
 /* LEAF DECORATIONS */
 .evergreen {
     width: 40vh;
