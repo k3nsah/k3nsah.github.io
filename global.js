@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 /* TOGGLE Navigation FOR @MOBILE DEVICES */
-function myFunction() { 
+function mobileNavigation() {
     var x = document.getElementById("mobile-nav");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
@@ -47,7 +47,3 @@ $("#btn-download").click(function() {
     $(this).toggleClass("downloaded");
     window.open("https://drive.google.com/file/d/10uImN-nySIUrFMIUUQ59W-hKg7knb76b/view?usp=sharing");
 });
-
-document.getElementById("return-button").onclick = function () {
-    location.href = "index.html";
-};

@@ -1,0 +1,27 @@
+.half-heart {
+    width: 1.0625em;
+    height: 1.0625em;
+    margin: 0px 1em;
+
+}
+
+/* FOOTER */
+footer p {
+    font-family: "Inter", sans-serif;
+    color: #F3F0EF;
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+
+footer {
+    opacity: 100%;
+    background: #404040;
+    box-shadow: inset 0px 15px 69px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+}

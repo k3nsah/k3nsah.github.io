@@ -1,0 +1,109 @@
+/* INITIALS "KLEMM" LOGO */
+.logo {
+    width: 2.1em;
+    height: 2.1em;
+    margin-top: 0.125em;
+    margin-right: 0.6em;
+    float: right;
+}
+
+.logo-small {
+    width: 2.1em;
+    height: 2.1em;
+    margin-top: 0.4em;
+    margin-left: 0.6em;
+    float: left;
+}
+
+/* NAVIGATION BAR (AND MOBILE NAVIGATION) */
+.navigation_bar {
+    z-index: 9999;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0;
+    border: none;
+    display: block;
+    outline:0;
+    background: #222222;
+    box-shadow: 0px 4px 39px #1F1F1F;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #F3F0EF;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+.mobile_hamburger {
+    color: #F3F0EF;
+    background-color: #222;
+}
+
+.mobile_hamburger:hover {
+    color: #F3F0EF;
+    background-color: #222;
+}
+
+#mobile-nav {
+    background-color: #151515;
+    color: #F3F0EF;
+}
+
+#mobile-nav a:hover {
+    color: #F3F0EF;
+}
+
+a.home_link {
+    margin: 0 0 0 20px;
+}
+
+a.home_link:hover {
+    background: linear-gradient(90deg, #F19F5E 17.59%, #E15F40 75.6%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+#mobile_home:hover {
+    background: linear-gradient(90deg, #F19F5E 17.59%, #E15F40 75.6%);
+}
+
+a.studio_link:hover {
+    background: linear-gradient(90deg, #98ACF3 17.59%, #426BFB 75.6%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+#mobile_studio:hover {
+    background: linear-gradient(90deg, #98ACF3 17.59%, #426BFB 75.6%);
+}
+
+a.resume_link:hover {
+    background: linear-gradient(90deg, #307263 -11.16%, #56BC8F 62.19%, #A8CD65 116.33%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+#mobile_resume:hover {
+    background: linear-gradient(90deg, #307263 -11.16%, #56BC8F 62.19%, #A8CD65 116.33%);
+}
+
+a.contact_link:hover {
+    background: linear-gradient(90deg, #F3D2BF -25.73%, #F2C672 81.49%, #f5b182 171.09%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+#mobile_contact:hover {
+    background: linear-gradient(90deg, #F3D2BF -25.73%, #F2C672 81.49%, #f5b182 171.09%);
+}
