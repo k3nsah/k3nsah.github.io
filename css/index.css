@@ -12,6 +12,7 @@ body {
     position: relative;
     z-index: 1;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* HEADER */
@@ -20,18 +21,8 @@ body {
     display: table;
     min-height: 100vh;
     margin: 0 auto;
-}
 
-/* .intro-header {
-    min-height: 100vh;
-    justify-content: center;
-    display: flex;
 }
-
-.intro-header img {
-    width: auto;
-    height: 30%;
-} */
 
 .intro-header-container h1 {
     font-size: 10vw;
@@ -42,26 +33,27 @@ body {
 }
 
 /* LEAF DECORATIONS */
-.solid_leaf_mobile {
-    width: 25vh;
+.evergreen {
+    width: 40vh;
     position: absolute;
-    left: 80%;
-    transform: rotate(230deg);
-    top: 0%;
-    z-index: 100;
-    }
-
-.leaf_bunch {
-    width: 110vh;
-    position: absolute;
-    left: -19%;
-    top: 45%;
-    z-index: 100;
+    left: -7%;
+    top: 48vh;
+    z-index: 0;
 }
 
-.floating_leaf_bunch {
-    width: 110vh;
+.sylvia {
+    width: 155vh;
     position: absolute;
-    z-index: 100;
-    left: 46%;
+    left: 90vh;
+    top: 5vh;
+    z-index: 0;
 }
+
+.cynth {
+    width: 60vh;
+    position: absolute;
+    left: 0vh;
+    top: -50vh;
+    z-index: 0;
+}
+
