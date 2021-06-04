@@ -1,99 +1,161 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+html {
     overflow-x: hidden;
+
+}
+
+body {
+    overflow: hidden;
+    background-color: #222;
+    position: relative;
+}
+
+/* HEADER */
+.page_title {
+    margin: 10vh 6px 0;
+    font-family: "Inter", sans-serif;
+    color: #F3F0EF;
+    /* background: linear-gradient(90deg, #307263 0%, #4DA984 45.03%, #A8CD65 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+}
+
+/* FLORA DECORATION  */
+.evergreen {
+    position: absolute;
+    z-index: -8;
+    height: 69.375vh;
+    width: auto;
+
+    top: 142vh;
+    left: -6vh;
+}
+
+.cynth_outline {
+    position: absolute;
+    z-index: -8;
+    height: 140vh;
+    width: auto;
+
+    top: -20vh;
+    left: 80vh;
 }
 
 /* RESUME CONTENT SECTION  */
-    .interactive {
-        margin-top: 16px;
-        margin-left:auto;
-        margin-right:auto
+.resume-container {
+    margin: 16px auto 0;
+}
+
+.profile-photo img {
+    width:100%;
+}
+
+.profile-photo h2 {
+    color: #fff;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.card-header {
+    color: #F3F0EF;
+    font-family: "Inter", sans-serif;
+}
+
+#about-me-card, #education-card, #involvement-card, #achievements-card {
+    background-color: #222;
+}
+
+h4, p {
+    color: #F3F0EF;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.theme-bckgrnd {
+    background-color: #50AB87;
+}
+
+.theme-fontcolor {
+    color: #50AB87;
+}
+
+.card-header {
+    color: #F3F0EF;
+    font-family: "Inter", sans-serif;
+}
+
+.indent {
+    margin-left: 50px;
+}
+
+.pull-top {
+    margin-top: -26px;
+}
+
+.pull-top-date {
+    margin-top: -12px;
+}
+
+.rounder {
+    border-radius: 5px; /* set border-radius of the corners boxes */
+}
+
+/* RESUME DOWNLOAD BUTTON  */
+#btn-download {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -0px;
+}
+
+#btn-download svg {
+    margin: 16px 0 0 16px;
+    fill: none;
+    transform: translate3d(0, 0, 0);
+}
+
+#btn-download svg polyline,
+#btn-download svg path {
+    stroke: #50AB87;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: all .3s ease;
+    transition-delay: .3s;
+}
+
+#btn-download svg path#check {
+    stroke-dasharray: 38;
+    stroke-dashoffset: 114;
+    transition: all .4s ease;
+}
+
+#btn-download.downloaded svg .svg-out {
+    opacity: 0;
+    animation: drop .3s linear;
+    transition-delay: .4s;
+}
+
+#btn-download.downloaded svg path#check {
+    stroke: #50AB87;
+    stroke-dashoffset: 174;
+    transition-delay: .4s;
+}
+
+@keyframes drop {
+    20% {
+        transform: translate(0, -3px);
     }
 
-    .green01 {
-        color: #44A08D;
+    80% {
+        transform: translate(0, 2px);
     }
 
-    .green01-bc {
-        background-color: #44A08D;
+    95% {
+        transform: translate(0, 0);
     }
-
-    .topic {
-        color: #5C5C5C;
-        font-family: 'Sarabun', sans-serif;
-    }
-
-    .indent {
-        margin-left: 50px;
-    }
-
-    .pull-top {
-        margin-top: -18px;
-    }
-
-    .pull-top-date {
-        margin-top: -12px;
-    }
-
-    .rounder {
-        border-radius: 7px;
-    }
-
-    #btn-download {
-        cursor: pointer;
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        position: relative;
-        -webkit-tap-highlight-color: transparent;
-        display: inline-block;
-        margin-left: 0px;
-        margin-top: -0px;
-    }
-
-    #btn-download svg {
-        margin: 16px 0 0 16px;
-        fill: none;
-        transform: translate3d(0, 0, 0);
-    }
-
-    #btn-download svg polyline,
-    #btn-download svg path {
-        stroke: #0077FF;
-        stroke-width: 2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        transition: all .3s ease;
-        transition-delay: .3s;
-    }
-
-    #btn-download svg path#check {
-        stroke-dasharray: 38;
-        stroke-dashoffset: 114;
-        transition: all .4s ease;
-    }
-
-    #btn-download.downloaded svg .svg-out {
-        opacity: 0;
-        animation: drop .3s linear;
-        transition-delay: .4s;
-    }
-
-    #btn-download.downloaded svg path#check {
-        stroke: #20CCA5;
-        stroke-dashoffset: 174;
-        transition-delay: .4s;
-    }
-
-    @keyframes drop {
-        20% {
-            transform: translate(0, -3px);
-        }
-
-        80% {
-            transform: translate(0, 2px);
-        }
-
-        95% {
-            transform: translate(0, 0);
-        }
-    }
+}

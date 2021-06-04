@@ -32,10 +32,10 @@
     <div class="nav-bar" id="navID"></div>
 
 <!-- RESUME CONTENT * RESUME CONTENT * RESUME CONTENT -->
-    <div class="interactive w3-content" style="max-width:1400px;">
+    <div class="resume-container w3-content" style="max-width:1400px;">
         <div class="w3-row-padding">
 
-            <h1 style="margin-bottom: 0px; font-family: sans-serif;" class="w3-jumbo"><b>Resume</b><div style="margin-bottom: 30px" id="btn-download">
+            <h1 class="page_title w3-jumbo no-select" style=""><b>RESUME</b><div style="margin-bottom: 30px" id="btn-download">
                 <svg width="22px" height="16px" viewBox="0 0 22 16">
                     <path d="M2,10 L6,13 L12.8760559,4.5959317 C14.1180021,3.0779974 16.2457925,2.62289624 18,3.5 L18,3.5 C19.8385982,4.4192991 21,6.29848669 21,8.35410197 L21,10 C21,12.7614237 18.7614237,15 16,15 L1,15" id="check"></path>
                     <polyline points="4.5 8.5 8 11 11.5 8.5" class="svg-out"></polyline>
@@ -43,77 +43,72 @@
                 </svg>
             </div></h1>
 
-
             <!-- left column -->
             <div class="w3-third">
-                <div class="rounder w3-white w3-text-grey w3-card-4">
+                <div id="about-me-card" class="rounder w3-text-grey w3-card-4">
 
                     <!-- profile picture -->
-                    <div class="w3-display-container">
-                        <img src="images/profile.jpg" style="width:100%" alt="Avatar">
+                    <div class="w3-display-container profile-photo">
+                        <img src="images/profile.jpg" alt="Avatar">
                         <div class="w3-display-bottomleft w3-container w3-text-black">
-                            <h2 style="color: #fff; font-family: 'Sarabun', sans-serif;">Kelci Mensah</h2>
+                            <h2>Kelci Mensah</h2>
                         </div>
                     </div>
 
                     <div class="w3-container">
 
                         <!-- about me -->
-                        <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large green01"></i>Computer Science Major</p>
-                        <p><i class="fa fa-map-marker-alt fa-fw w3-margin-right w3-large green01"></i>New Brunswick, NJ</p>
-                        <p><a href="mailto:kelcimensah@gmail.com"><i class="fas fa-envelope-open-text fa-fw w3-margin-right w3-large green01"></i>kelcimensah@gmail.com</a></p>
-                        <!--<p><a href="tel:443-374-8297"><i class="fa fa-phone-alt fa-fw w3-margin-right w3-large green01"></i>443 - 374 - 8297</a></p>-->
+                        <!-- <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large theme-fontcolor"></i>Computer Science Major</p> -->
+                        <p><i class="fa fa-map-marker-alt fa-fw w3-margin-right w3-large theme-fontcolor"></i>New Brunswick, NJ</p>
+                        <p><a href="mailto:kelcimensah@gmail.com"><i class="fas fa-envelope-open-text fa-fw w3-margin-right w3-large theme-fontcolor"></i>kelcimensah@gmail.com</a></p>
+                        <!--<p><a href="tel:443-374-8297"><i class="fa fa-phone-alt fa-fw w3-margin-right w3-large theme-fontcolor"></i>443 - 374 - 8297</a></p>-->
 
                         <hr>
 
                         <!-- work experience -->
-                        <p class="topic w3-large"><b><i class="fas fa-angle-right fa-fw w3-margin-right green01"></i>work experience.</b></p>
+                        <h3 class="card-header w3-large"><b><i class="fas fa-angle-right fa-fw w3-margin-right theme-fontcolor"></i>Education.</b></h3>
 
-                        <h4 class="w3-opacity indent"><b>NASA - Glenn Research Center</b></h4>
-                        <p class="pull-top indent">Graphics and Visualization Lab Intern</p>
-                        <h6 class="green01 pull-top-date indent">AUG 2020 - PRESENT</h6>
-                        <!--  <h6 class="green01 pull-top-date indent"><span style="background-color: #44A08D" class="w3-tag w3-round">Pending AUGUST 2020</span></h6>  -->
+                        <h4 class="indent"><b>Rutgers University - New Brunswick, NJ</b></h4>
+                        <p class="w3-opacity pull-top indent">Undergraduate sophomore studying towards a bachelors in Computer Science. Potential second major in Cognitive Science.</p>
+                        <h6 class="theme-fontcolor pull-top-date indent">AUG 2019 - PRESENT</h6>
+                        <!--  <h6 class="theme-fontcolor pull-top-date indent"><span style="background-color: #44A08D" class="w3-tag w3-round">Pending AUGUST 2020</span></h6>  -->
 
-                        <h4 class="w3-opacity indent"><b>Gilbane Construction Co.</b></h4>
-                        <p class="pull-top indent">Summer Intern</p>
-                        <h6 class="green01 pull-top-date indent">JUN 2020 - AUG 2020</h6>
-
-                        <h4 class="w3-opacity indent"><b>U.S. Army Aberdeen Proving Ground</b></h4>
-                        <p class="pull-top indent">CEC-SECOM Cyber Security Intern</p>
-                        <h6 class="green01 pull-top-date indent">JUN 2018 - JUL 2018</h6>
+                        <h4 class="indent"><b>Aberdeen High School</b></h4>
+                        <p class="w3-opacity pull-top indent">Graduated high school in 2019 on honor roll as well as with other high achievements.</p>
+                        <h6 class="theme-fontcolor pull-top-date indent">SEP 2015 - MAY 2019</h6>
 
                         <br>
 
                         <!-- skills -->
-                        <p class="w3-large topic pull-top"><b><i class="fas fa-asterisk fa-fw w3-margin-right green01"></i>skills.</b></p>
-                            <p>C</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge green01-bc" style="height:14px;width:63%"></div>
+                        <h3 class="w3-large card-header pull-top"><b><i class="fas fa-asterisk fa-fw w3-margin-right theme-fontcolor"></i>Skills.</b></h3>
+                            <p class="indent">C</p>
+                            <div class="indent w3-round-xlarge">
+                                <div class="w3-round-xlarge theme-bckgrnd" style="height:14px;width:63%"></div>
                             </div>
 
-                            <p>Python</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge green01-bc" style="height:14px;width:56%"></div>
+                            <p class="indent">Python</p>
+                            <div class="indent w3-round-xlarge">
+                                <div class="w3-round-xlarge theme-bckgrnd" style="height:14px;width:56%"></div>
                             </div>
 
-                            <p>Java</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge green01-bc" style="height:14px;width:50%"></div>
+                            <p class="indent">Java</p>
+                            <div class="indent w3-round-xlarge">
+                                <div class="w3-round-xlarge theme-bckgrnd" style="height:14px;width:50%"></div>
                             </div>
 
-                            <p>HTML</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge green01-bc" style="height:14px;width:76%"></div>
+                            <p class="indent">HTML</p>
+                            <div class="indent w3-round-xlarge">
+                                <div class="w3-round-xlarge theme-bckgrnd" style="height:14px;width:76%"></div>
                             </div>
 
-                            <p>CSS</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge green01-bc" style="height:14px;width:38%"></div>
+                            <p class="indent">CSS</p>
+                            <div class="indent w3-round-xlarge">
+                                <div class="w3-round-xlarge theme-bckgrnd" style="height:14px;width:38%"></div>
                             </div>
 
-                            <p>Figma</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge green01-bc" style="height:14px;width:88%"></div>
+                            <p class="indent">Figma</p>
+                            <div class="indent w3-round-xlarge">
+                                <div class="w3-round-xlarge theme-bckgrnd" style="height:14px;width:88%"></div>
                             </div>
                         <br>
                     </div>
@@ -124,67 +119,73 @@
             <div class="w3-twothird">   <!-- right section -->
 
                 <!-- education -->
-                <div class="rounder w3-container w3-card w3-white w3-margin-bottom">
-                    <h2 class="topic w3-padding-16"><i class="far fa-bookmark fa-fw w3-margin-right w3-xlarge green01"></i>Education.</h2>
+                <div id="education-card" class="rounder w3-container w3-card w3-margin-bottom">
+                    <h2 class="card-header w3-padding-16"><i class="far fa-bookmark fa-fw w3-margin-right w3-xlarge theme-fontcolor"></i>Work Experience.</h2>
 
                     <div class="w3-container pull-top">
-                        <h4><b>Rutgers University - New Brunswick, NJ</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>AUG 2019 - PRESENT</span></h6>
-                        <p>Undergraduate sophomore studying towards a bachelors in Computer Science. Potential second major in Cognitive Science.</p>
+                        <h4><b>National Aeronautics and Space Administration - Glenn Research Center, Cleveland OH</b></h4>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>AUG 2020 - PRESENT</span></h6>
+                        <p class="pull-top w3-opacity">Undergraduate sophomore studying towards a bachelors in Computer Science. Potential second major in Cognitive Science.</p>
                         <hr>
                     </div>
 
                     <div class="w3-container pull-top">
-                        <h4><b>Aberdeen High School - Aberdeen, MD</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2015 - MAY 2019</span></h6>
-                        <p>Graduated high school in 2019 on honor roll as well as with other high achievements.</p>
+                        <h4><b>Gilbane Construction Co., Washington DC</b></h4>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2015 - MAY 2019</span></h6>
+                        <p class="pull-top w3-opacity">Graduated high school in 2019 on honor roll as well as with other high achievements.</p>
+                    <hr>
+                    </div>
+
+                    <div class="w3-container pull-top">
+                        <h4><b>U.S. Army Aberdeen Proving Ground, Aberdeen MD</b></h4>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>JUN 2018 - JUL 2018</span></h6>
+                        <p class="pull-top w3-opacity">CEC-SECOM Cyber Security Intern</p>
                     </div>
 
                 </div>
 
-                <!-- student orgs & leadership -->
-                <div class="rounder w3-container w3-card w3-white w3-margin-bottom">
-                    <h2 class="topic w3-padding-16"><i class="far fa-check-square fa-fw w3-margin-right w3-xlarge green01"></i>Student Organization(s) and Leadership.</h2>
+                <!-- involvement -->
+                <div id="involvement-card" class="rounder w3-container w3-card w3-margin-bottom">
+                    <h2 class="card-header w3-padding-16"><i class="far fa-check-square fa-fw w3-margin-right w3-xlarge theme-fontcolor"></i>Student & Professional Involvement(s).</h2>
 
                     <div class="w3-container pull-top">
                         <h4><b>Douglass-SAS DIMACS Computer Science Living Learning Community</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>JUN 2019 - PRESENT</span></h6>
-                        <p class="pull-top">Position(s) Held: Web Developer (May 2020 - PRESENT)</p>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>JUN 2019 - PRESENT</span></h6>
+                        <p class="pull-top w3-opacity">Position(s) Held: Web Developer (May 2020 - PRESENT)</p>
                     </div>
 
-                    <div class="w3-container pull-top">
+                    <div class="w3-container">
                         <h4><b>Minority Engineering Educational Task (MEET) - Rutgers NSBE Chapter</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2019 - PRESENT</span></h6>
-                        <p class="pull-top">Position(s) Held: Freshman Representative (Oct 2019 - May 2020)</p>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2019 - PRESENT</span></h6>
+                        <p class="pull-top w3-opacity">Position(s) Held: Freshman Representative (Oct 2019 - May 2020)</p>
                     </div>
 
                     <div class="w3-container">
                         <h4><b>Rutgers University Cognitive Science Club</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2019 - OCTOBER 2020</span></h6>
-                        <p class="pull-top">Position(s) Held: Vice President (May 2020 - Oct 2020), Web Developer (Dec 2019 - May 2020)</p>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2019 - OCTOBER 2020</span></h6>
+                        <p class="pull-top w3-opacity">Position(s) Held: Vice President (May 2020 - Oct 2020), Web Developer (Dec 2019 - May 2020)</p>
                     </div>
 
                     <div class="w3-container">
                         <h4><b>Mobile App Development Club</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2019 - DEC 2019</span></h6>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2019 - DEC 2019</span></h6>
                     </div>
                 </div>
 
                 <!-- achievements -->
-                <div class="rounder w3-container w3-card w3-white w3-margin-bottom">
-                    <h2 class="topic w3-padding-16"><i class="fas fa-check fa-fw w3-margin-right w3-xlarge green01"></i>Achievements.</h2>
+                <div id="achievements-card" class="rounder w3-container w3-card w3-margin-bottom">
+                    <h2 class="card-header w3-padding-16"><i class="fas fa-check fa-fw w3-margin-right w3-xlarge theme-fontcolor"></i>Awards & Achievements.</h2>
 
                     <div class="w3-container pull-top">
                         <h4><b>Maryland State Scholar</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>MAY 2019</span></h6>
-                        <p class="pull-top">Surpassed the GPA requirement of 3.5 or higher for four consecutive years during high school.</p>
-                        <hr>
+                        <h6 class="pull-top theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>MAY 2019</span></h6>
+                        <p class="pull-top w3-opacity">Surpassed the GPA requirement of 3.5 or higher for four consecutive years during high school.</p>
                     </div>
 
-                    <div class="w3-container pull-top">
+                    <div class="w3-container">
                         <h4><b>National Latin Exam - Magna Cum Laude</b></h4>
-                        <h6 class="pull-top green01"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2015</span></h6>
-                        <p class="pull-top">Received the honor level “Magna Cum Lude” score on the official National Latin Exam.</p>
+                        <h6 class="pull-top-date theme-fontcolor"><i class="far fa-calendar-alt fa-fw w3-margin-right"></i>SEP 2015</span></h6>
+                        <p class="pull-top w3-opacity">Received the honor level “Magna Cum Laude” score on the official National Latin Exam.</p>
                     </div>
                 </div>
             </div>  <!-- end right-column -->
@@ -192,11 +193,12 @@
         </div>
     </div>  <!-- end content -->
 
-<img style="margin-top: -38em; position: relative; z-index: -8; height: 39.375em; width: 56.875em;" src="images/corner-leaf.png">
+    <object class="no-select evergreen" data="images/evergreen.svg" type="image/svg+xml"></object>
+    <object class="no-select cynth_outline" data="images/cynth_outline.svg" type="image/svg+xml"></object>
 </body>
 
 <!-- FOOTER * FOOTER * FOOTER * FOOTER * FOOTER -->
-    <footer><div class="footerCSS" id="footerID"></div></footer>
+    <div id="footerID"></div>
 </html>
 
 <!-- JAVASCRIPT * JAVASCRIPT * JAVASCRIPT * JAVASCRIPT * JAVASCRIPT -->
