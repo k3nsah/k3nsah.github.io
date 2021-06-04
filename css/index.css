@@ -3,6 +3,7 @@
 html {
     scroll-behavior: smooth;
     margin: 0;
+    overscroll-behavior: none;
 }
 
 body {
@@ -11,8 +12,7 @@ body {
 
     position: relative;
     z-index: 1;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 /* HEADER */
@@ -21,7 +21,6 @@ body {
     display: table;
     min-height: 100vh;
     margin: 0 auto;
-
 }
 
 .intro-header-container h1 {
@@ -38,7 +37,7 @@ body {
     position: absolute;
     left: -7%;
     top: 48vh;
-    z-index: 0;
+    z-index: -1;
 }
 
 .sylvia {
@@ -46,14 +45,14 @@ body {
     position: absolute;
     left: 90vh;
     top: 5vh;
-    z-index: 0;
+    z-index: -1;
 }
 
 .cynth {
     width: 60vh;
     position: absolute;
-    left: 0vh;
-    top: -50vh;
-    z-index: 0;
+    left: 0;
+    top: -69vh;
+    z-index: -1;
 }
 
