@@ -12,7 +12,6 @@ html {
 body {
     background-color: #222;
     color: #F3F0EF;
-
     position: relative;
     z-index: 1;
     overflow:hidden;
@@ -36,24 +35,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-/* @media screen and (max-width: 424px) {
-    .evergreen, .sylvia, .cynth {
-        filter: blur(2px);
-    }
-}
-
-@media screen and (min-width: 425px) {
-    .evergreen, .sylvia, .cynth {
-        filter: blur(4px);
-    }
-} */
-
 /* LEAF DECORATIONS */
-.flora {
-    overflow: hidden!important;
-    height: 1vh;
-}
-
 .evergreen {
     width: 40vh;
     position: absolute;
@@ -112,6 +94,7 @@ body {
     top: 76vh;
     z-index: -1;
     --animate-duration: 1.5s;
+    clip: rect(0px,1000px,250px,0px);
 }
 
 .grass {
