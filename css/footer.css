@@ -11,6 +11,7 @@ footer p {
     color: #F3F0EF;
     font-size: 2vh;
     font-weight: 500;
+
 }
 
 footer {
@@ -24,5 +25,5 @@ footer {
     display: grid;
     place-items: center;
     padding: 2em;
-    z-index: 0;
+    z-index: 300;
 }
