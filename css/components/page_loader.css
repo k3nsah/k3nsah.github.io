@@ -12,7 +12,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     line-height: 1.6;
-    background: #fff;
+    background: #222;
   }
 
   .pageloader_container {
@@ -21,7 +21,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #222;
     z-index: 999999;
   }
 
@@ -32,7 +32,7 @@
     transform: translate(-50%, -50%);
     width: 50px;
     height: 10px;
-    background: #426BFB;
+    background: #EC8248;
     border-radius: 5px;
     -webkit-animation: load 1.8s ease-in-out infinite;
             animation: load 1.8s ease-in-out infinite;
@@ -50,12 +50,12 @@
     top: -20px;
     left: 10px;
     width: 40px;
-    background: #1C2237;
+    background: #6C8CFC;
   }
   .pageloader:after {
     bottom: -20px;
     width: 35px;
-    background: #C4CADF;
+    background: #6AAB52;
   }
   
   @-webkit-keyframes load {
