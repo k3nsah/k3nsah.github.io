@@ -23,13 +23,13 @@ body {
 }
 
 .id-card {
-    width: 35%;
+    width: 38%;
     height: 35%;
     border-radius: 0.75rem;
     font-family: "Inter", sans-serif;
     box-shadow: 0px 4px 35px rgba(26, 25, 25, 0.75);
     background: #1D1C1C;
-    color: #fff;
+    color: #F3F0EF;
     margin: 35vh auto;
     display: grid;
     grid-template-columns: 40% auto;
@@ -37,9 +37,31 @@ body {
     will-change: transform;
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .id-card:hover {
     transform: scale(1.1);
     box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36);
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+    .id-card {
+        grid-template-columns: 35% auto;
+        padding: 20px;
+        width: 60%;
+        height: 35%;
+    }
+
+    .follow-me {
+        font-size: 5vw;
+    }
+
+    td {
+        padding: 15px;
+    }
+
+    .svg object {
+        width: 100%;
+    }
 }
 
 .svg object {
@@ -67,7 +89,99 @@ table {
     width: 70%;
 }
 
+.mobile-table {
+    position: absolute;
+    top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 .icon {
-    height: 5vh;
+    height: 4.5vh;
     width: auto;
+}
+
+.social-container {
+    width: 65%;
+    display: table;
+    min-height: 100vh;
+    margin: 0 auto;
+    z-index: 4000;
+}
+
+.social-container h3 {
+    font-size: 5vw;
+    font-weight: 900;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Inter", sans-serif;
+    color: #F3F0EF;
+    text-align: center;
+
+}
+
+/* LEAF DECORATIONS */
+@media screen and (min-width: 60px){
+    .flora {
+        filter: blur(4px);
+        z-index: 0;
+    }
+}
+
+.evergreen {
+    width: 40vh;
+    position: absolute;
+    left: -7%;
+    top: 48vh;
+}
+
+.sylvia {
+    width: 155vh;
+    position: absolute;
+    left: 90vh;
+    top: 5vh;
+}
+
+@media (min-width: 1025px) {
+    .cynth {
+        display:none!important;
+    }
+}
+
+.cynth {
+    width: 60vh;
+    position: absolute;
+    left: 0;
+    top: -62vh;
+}
+
+.cynth_2 {
+    width: 120vh;
+    position: absolute;
+    left: 32vh;
+    top: -69vh;
+}
+
+.cynth_outline {
+    width: 190vh;
+    position: absolute;
+    left: 90vh;
+    top: 20vh;
+}
+
+.poppy {
+    width: 40vh;
+    position: absolute;
+    left: 120vh;
+    top: 76vh;
+}
+
+.grass {
+    width: 40vh;
+    position: absolute;
+    left: 40vh;
+    top: 82vh;
 }
