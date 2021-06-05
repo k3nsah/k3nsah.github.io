@@ -51,6 +51,7 @@ body {
 /* LEAF DECORATIONS */
 .flora {
     overflow: hidden;
+    object-fit: contain;
 }
 
 .evergreen {
