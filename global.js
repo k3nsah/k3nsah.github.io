@@ -309,3 +309,11 @@ function newColour() {
     return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
 }
 // ]]>
+
+
+$(document).bind(
+    'touchmove',
+    function(e) {
+        e.preventDefault();
+    }
+);
