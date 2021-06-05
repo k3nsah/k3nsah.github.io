@@ -50,9 +50,8 @@ body {
 
 /* LEAF DECORATIONS */
 .flora {
-    overflow: hidden;
-    object-fit: contain;
-    height: auto;
+    overflow: hidden!important;
+    height: 1vh;
 }
 
 .evergreen {
