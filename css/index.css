@@ -4,8 +4,9 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     overscroll-behavior: none;
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
+    overflow-x: hidden;
+    height: 100%;
 }
 
 body {
@@ -48,6 +49,10 @@ body {
 } */
 
 /* LEAF DECORATIONS */
+.flora {
+    overflow: hidden;
+}
+
 .evergreen {
     width: 40vh;
     position: absolute;
