@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    overscroll-behavior: none;
+    background-color: #222!important;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background-color: #222!important;
+    overflow: hidden;
+    margin: 0;
+    place-items: center;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.id-card {
+    width: 35%;
+    height: 35%;
+    border-radius: 0.75rem;
+    font-family: "Inter", sans-serif;
+    box-shadow: 0px 4px 35px rgba(26, 25, 25, 0.75);
+    background: #1D1C1C;
+    color: #fff;
+    margin: 35vh auto;
+    display: grid;
+    grid-template-columns: 40% auto;
+    align-items: center;
+    will-change: transform;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.id-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36);
+}
+
+.svg object {
+    width: 55%;
+}
+
+.svg {
+    justify-content: center;
+    text-align: center;
+}
+
+.follow-me {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.message {
+    font-weight: 600;
+    font-size: 2vh;
+    color: #F4C672;
+    margin: 0 0 10px;
+}
+
+table {
+    width: 70%;
+}
+
+.icon {
+    height: 5vh;
+    width: auto;
+}
