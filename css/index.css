@@ -52,6 +52,7 @@ body {
 .flora {
     overflow: hidden;
     object-fit: contain;
+    height: auto;
 }
 
 .evergreen {
