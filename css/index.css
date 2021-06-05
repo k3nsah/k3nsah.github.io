@@ -4,6 +4,8 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     overscroll-behavior: none;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
 }
 
 body {
@@ -12,7 +14,9 @@ body {
 
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    overflow:hidden;
+    overscroll-behavior-y: none;
+    -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
 }
 
 /* HEADER */
