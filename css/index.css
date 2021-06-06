@@ -43,7 +43,7 @@ body {
     top: 48vh;
     z-index: -1;
     --animate-duration: 1.5s;
-    clip: rect(0px,1000px,500px,0px);
+    clip: rect(0px,1000px,450px,0px);
 }
 
 .sylvia {
