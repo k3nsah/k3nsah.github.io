@@ -25,6 +25,7 @@ body {
     font-weight: 900;
     margin: 7vh 15px 0;
     font-size: 6vh;
+    font-family: "Inter", sans-serif;
 }
 
 .page_subtitle {
@@ -41,10 +42,6 @@ body {
     position: relative;
     text-decoration: none;
     color: #FFF;
-}
-
-.caption a:hover {
-
 }
 
 .main-container {
