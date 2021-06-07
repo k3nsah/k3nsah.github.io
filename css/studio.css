@@ -66,17 +66,23 @@ body {
     border-radius: 5px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .card:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
     transform: scale(1.02);
+    cursor: pointer;
 }
 
 .icon {
     grid-row: 2/3;
     height: 55px;
     width: auto;
+}
+
+.icon:hover {
+    cursor: pointer;
 }
 
 .card_link {
